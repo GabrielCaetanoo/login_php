@@ -1,0 +1,30 @@
+<?php
+defined('CONTROL') or die('Acesso Negado!');
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form action="index.php?rota=login" method="post">
+        <h3>Login</h3>
+        <div>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div>
+            <label for="usuario">Senha:</label>
+            <input type="text" id="senha" name="senha" required>
+        </div>
+        <div>
+            <button type="submit">Entrar</button>
+        </div>
+    </form>
+    
+</body>
+</html>
